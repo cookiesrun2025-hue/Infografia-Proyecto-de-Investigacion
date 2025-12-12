@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Predicción de Entregas a Tiempo - Machine Learning</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <img src="assets/logo_uaq.png" alt="UAQ" class="logo">
+    <img src="assets/logo_coniin.png" alt="CONIIN" class="logo">
+  </div>
+  <h1>Predicción de Entregas a Tiempo en el Sector Logístico</h1>
+  <p>Aplicación de Modelos de Aprendizaje Automático</p>
+</header>
+
+<section>
+  <h2>Objetivo</h2>
+  <p>
+    Evaluar y comparar el desempeño de tres modelos de aprendizaje automático
+    para predecir entregas a tiempo en operaciones logísticas reales, con el fin
+    de apoyar la toma de decisiones operativas.
+  </p>
+</section>
+
+<section>
+  <h2>Modelos Evaluados</h2>
+  <ul>
+    <li><strong>Random Forest:</strong> modelo de ensamble robusto y explicable.</li>
+    <li><strong>SVM:</strong> separación óptima mediante kernel no lineal.</li>
+    <li><strong>Red Neuronal Multicapa:</strong> 2 capas ocultas con 5 neuronas.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Comparación de Resultados</h2>
+  <img src="assets/comparacion_modelos.png" alt="Comparación de modelos">
+  <p>
+    Random Forest obtuvo el mejor desempeño general en AUC-ROC, seguido
+    muy de cerca por la red neuronal.
+  </p>
+</section>
+
+<section>
+  <h2>Importancia de Variables</h2>
+  <img src="assets/importancia_variables.png" alt="Importancia de variables">
+  <p>
+    El clima, el área geográfica y el tiempo total de entrega fueron los factores
+    más influyentes en la predicción de entregas a tiempo.
+  </p>
+</section>
+
+<section>
+  <h2>Predicciones del Modelo</h2>
+  <img src="assets/histograma_probabilidades.png" alt="Histograma de probabilidades">
+  <p>
+    El modelo genera probabilidades de cumplimiento, lo que permite su integración
+    directa en dashboards operativos.
+  </p>
+</section>
+
+<section>
+  <h2>Conclusiones</h2>
+  <p>
+    Los resultados demuestran que el aprendizaje automático es una herramienta
+    eficaz para anticipar retrasos logísticos. Random Forest fue seleccionado como
+    modelo final por su estabilidad, interpretabilidad y alto desempeño.
+  </p>
+</section>
+
+<footer>
+  <p>
+    Proyecto académico – CONIIN UAQ 2025<br>
+    adelprado24@alumnos.uaq.mx
+  </p>
+</footer>
+
+</body>
+</html>
